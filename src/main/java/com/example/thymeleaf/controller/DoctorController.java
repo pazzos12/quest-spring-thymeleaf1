@@ -16,5 +16,7 @@ public class DoctorController {
     model.addAttribute("name", name);
     model.addAttribute("number", number);
         return "doctor";
+        
+        
     }
 }
